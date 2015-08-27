@@ -35,7 +35,6 @@
     [super viewWillAppear:animated];
     
     self.Result.text = self.wordKey;
-    NSLog(@"%@", self.wordKey);
     PFQuery *query = [PFQuery queryWithClassName:@"Words"];
     [query whereKey:@"english" equalTo:self.wordKey];
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
@@ -59,13 +58,14 @@
             CGFloat height = [UIScreen mainScreen].bounds.size.height;
 
             int offset = (width - [chinese count] * 45)/2;
+            int box_size = 50;
 
             
             for(int i = 0; i < [chinese count]; i++){
                 CGRect frame;
-                frame.origin.x = 45 * i + offset + 30;
+                frame.origin.x = box_size * i + offset + 30;
                 frame.origin.y = 60;
-                frame.size = CGSizeMake(40, 80);
+                frame.size = CGSizeMake(box_size, 80);
             
                 Character *character = [[Character alloc]initWithFrame:frame];
                 character.chineseChar = chinese[i];
@@ -98,15 +98,9 @@
             UIImageView *dot =[[UIImageView alloc] initWithFrame:CGRectMake(img_offset,150,250,250)];
             dot.image=[UIImage imageNamed:[NSString stringWithFormat:@"%@%@", self.wordKey, @".png"]];
             dot.contentMode   = UIViewContentModeScaleAspectFit;
-//            dot.backgroundColor = [UIColor redColor];
             [self.view addSubview:dot];
             
             
-            
-//            self.imageObject.image = [UIImage imageNamed:[NSString stringWithFormat:@"%@%@", self.wordKey, @".png"]];
-//            self.imageObject.frame = CGRectMake(0, 0, 200 , 200);
-//            self.imageObject.contentMode   = UIViewContentModeScaleAspectFit;
-//            self.imageObject.backgroundColor = [UIColor redColor];
 
 
         }

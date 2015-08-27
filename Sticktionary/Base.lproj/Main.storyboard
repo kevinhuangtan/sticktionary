@@ -36,12 +36,23 @@
                                     <action selector="playSound:" destination="wfy-z3-R1M" eventType="touchUpInside" id="c0s-Ya-SuI"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9k-Dq-8cj">
+                                <rect key="frame" x="258" y="514" width="89" height="30"/>
+                                <state key="normal" title="History">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XRz-dL-Pbn" kind="show" id="Uhx-0L-rvH"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="1sI-7u-q9O" firstAttribute="top" secondItem="lgn-rg-CJV" secondAttribute="bottom" constant="399" id="UWK-fW-7pq"/>
+                            <constraint firstItem="C9k-Dq-8cj" firstAttribute="top" secondItem="08I-gs-N16" secondAttribute="bottom" constant="8" id="BIZ-Xn-6c2"/>
+                            <constraint firstAttribute="centerX" secondItem="C9k-Dq-8cj" secondAttribute="centerX" id="LDv-Gg-6jW"/>
+                            <constraint firstItem="1sI-7u-q9O" firstAttribute="top" secondItem="lgn-rg-CJV" secondAttribute="bottom" constant="410" id="UWK-fW-7pq"/>
                             <constraint firstAttribute="centerX" secondItem="08I-gs-N16" secondAttribute="centerX" id="YuX-18-1IO"/>
-                            <constraint firstItem="08I-gs-N16" firstAttribute="top" secondItem="lgn-rg-CJV" secondAttribute="bottom" constant="456" id="egG-CD-YQB"/>
+                            <constraint firstItem="08I-gs-N16" firstAttribute="top" secondItem="lgn-rg-CJV" secondAttribute="bottom" constant="460" id="egG-CD-YQB"/>
                             <constraint firstAttribute="centerX" secondItem="1sI-7u-q9O" secondAttribute="centerX" id="sIx-jX-jpx"/>
                         </constraints>
                     </view>
@@ -53,6 +64,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gng-8u-PPW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="380" y="1138"/>
+        </scene>
+        <!--View3-->
+        <scene sceneID="bFA-8L-Vyc">
+            <objects>
+                <viewController id="XRz-dL-Pbn" customClass="View3" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oMP-6L-ky4"/>
+                        <viewControllerLayoutGuide type="bottom" id="Uzp-g8-tTl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3zC-Hi-Epi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGn-qr-JLq">
+                                <rect key="frame" x="279" y="122" width="55" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="qGn-qr-JLq" secondAttribute="centerX" id="78z-4j-jkn"/>
+                            <constraint firstItem="qGn-qr-JLq" firstAttribute="top" secondItem="oMP-6L-ky4" secondAttribute="bottom" constant="30" id="ETF-DF-Kge"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gj3-JB-GZ1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="380" y="1862"/>
         </scene>
         <!--View1-->
         <scene sceneID="tne-QT-ifu">
@@ -71,21 +112,10 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aux-Uo-Qpv">
-                                <rect key="frame" x="259" y="285" width="82" height="30"/>
-                                <state key="normal" title="Submit">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="submit:" destination="BYZ-38-t0r" eventType="touchUpInside" id="As0-3e-Huf"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="Aux-Uo-Qpv" secondAttribute="centerX" id="9YY-SQ-T6E"/>
-                            <constraint firstItem="Aux-Uo-Qpv" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="285" id="giK-Q0-3Nl"/>
-                            <constraint firstItem="EyK-GA-5yZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="172" id="lLo-zy-1ad"/>
+                            <constraint firstItem="EyK-GA-5yZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="70" id="lLo-zy-1ad"/>
                             <constraint firstAttribute="centerX" secondItem="EyK-GA-5yZ" secondAttribute="centerX" id="x4h-pK-E77"/>
                         </constraints>
                     </view>

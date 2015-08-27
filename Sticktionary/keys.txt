@@ -1,0 +1,549 @@
+bedroom
+bed
+mattress
+comforter
+blanket
+bedsheet
+pillow
+bookcase
+book
+light switch
+on
+trash can
+tablet computer
+clock
+air conditioner
+electric heater
+poster
+book bag
+lamp
+alarm clock
+cell phone
+charger
+chest of drawers
+drawer
+hat
+socks
+briefs
+boxer shorts
+pantyhose
+panty
+bra
+belt
+necktie
+bow tie
+dresser
+mirror
+jewelry
+jewelry box
+ring
+earrings
+bracelet
+chain
+necklace
+wallet
+hand bag
+wrist watch
+closet
+coat
+suitcase
+shoes
+sandles
+high heels
+boots
+leather shoes
+gloves
+shelf
+hook
+scarf
+wardrobe
+T-shirt
+jeans
+hoodie
+sweatpants
+shorts
+dress shirt
+sweatshirt
+long sleeve T-shirt
+suit
+suit jacket
+pants
+wardrobe
+T-shirt
+jeans
+dress
+skirt
+shorts
+blouse
+sweater
+tank top
+suit
+suit jacket
+pants
+bathroom
+mirror
+sink
+faucet
+tooth paste
+mouthwash
+soap
+toothbrush
+floss
+contact lenses
+cleaning solution
+glasses
+shower
+shower curtain
+towel
+shampoo
+body wash
+electric razor
+shaving cream
+deodorant
+nail clipper
+shower cap
+razor
+toilet
+toilet seat
+toilet paper
+plunger
+first aid kit
+moisturizer
+bandage
+medicine
+sunscreen
+cotton swab
+cotton ball
+rubbing alcohol
+dressing room
+makeup table
+makeup
+lipstick
+lip gloss
+eye shadow
+lip balm
+perfume
+eyelash curler
+eyeliner
+mascara
+scale
+tissue
+hair dryer
+hair brush
+curling iron
+hair straightener
+concealer
+hair spray
+hair gel
+comb
+blush
+foundation
+kitchen
+dining table
+countertop
+table cloth
+chair
+cabinet
+tin foil
+plastic wrap
+bag
+salt
+pepper
+soy sauce
+sink
+trash can
+recycling bin
+faucet
+paper towel
+hand towel
+dish soap
+hand soap
+sponge
+hot water
+refrigerator
+freezer
+microwave
+coffee grinder
+coffee pot
+coffee machine
+blender
+ice cube
+pitcher
+oven
+stove
+range hood
+pan
+pot
+wok
+lid
+rice cooker
+grill
+glove
+spatula
+ladle
+dishwasher
+dish rack
+utensils
+cup
+bowl
+plate
+fork
+spoon
+teapot
+toaster
+electric kettle
+knife
+dish detergent
+napkin
+chopsticks
+living room
+fireplace
+mantle
+firewood
+lighter
+light bulb
+television
+remote control
+floor lamp
+candle
+picture frame
+picture
+sofa
+rug
+balcony
+coffee table
+coaster
+office
+painting
+plant
+flower
+vase
+magazine
+newspaper
+basket
+office desk
+file cabinet
+chair
+folder
+paper tray
+pencil holder
+business card
+briefcase
+ballpoint pen
+pencil
+eraser
+computer
+printer
+paper bin
+highlighter
+paper
+paper clip
+monitor
+tape
+keyboard
+mouse
+scissors
+stapler
+laptop
+fax machine
+scanner
+modem
+router
+hard drive
+telephone
+calculator
+power adapter
+power strip
+webcam
+flash drive
+calendar
+bulletin board
+whiteboard
+binder
+notebook
+paper shredder
+envelope
+postcard
+stamp
+hole puncher
+cord
+plug
+laundry room
+washing machine
+dryer
+laundry detergent
+bleach
+fabric softener
+ironing board
+dryer sheets
+hamper
+hanger
+clothespin
+iron
+cleaning supplies
+vacuum cleaner
+cleaning solution
+broom
+mop
+cage
+dog food
+cat food
+drying rack
+dust pan
+leash
+ceiling
+apartment
+wall
+mailbox
+window
+bench
+doorbell
+door
+mat
+key
+lock
+door knob
+upstairs/downstairs
+blinds
+curtains
+step
+outlet
+shoe rack
+umbrella
+yard
+swimming pool
+swing set
+swing
+slide
+tree
+grill
+charcoal
+gas canister
+swimsuit
+swim trunks
+goggles
+garden
+watering can
+wheelbarrow
+lawn mower
+hose
+fence
+shovel
+rake
+flower pot
+trowel
+shears
+seed
+garage
+trash can
+recycling bin
+gasoline
+motor oil
+antifreeze
+snow brush
+tire
+garage opener
+button
+up/down
+trunk
+seat belt
+speedometer
+air conditioning
+steering wheel
+horn
+turn signal
+rear view mirror
+windshield wiper
+bicycle
+motorcycle
+moped
+scooter
+bike lock
+air pump
+handlebar
+wheel
+bike seat
+pedal
+helmet
+workshop
+workbench
+tool
+vice
+hand saw
+circular saw
+extension cord
+electric drill
+wire cutter
+tape measure
+ruler
+yardstick
+ladder
+wooden board
+paint
+paintbrush
+clay
+golf
+level
+hammer
+nail
+screw
+utility knife
+multi-tool
+screwdriver
+toolbox
+flashlight
+trash bag
+portable drill
+ratchet
+washer
+screwdriver bit
+socket
+nut
+wrench
+pliers
+clamp
+dartboard
+foosball
+pool table
+cue ball
+solid
+stripe
+pocket
+chalk
+air hockey
+dart
+triangle
+pool stick
+king
+queen
+knight
+bishop
+pawn
+mahjong tile
+dice
+playing cards
+game console
+blu-ray player
+DVD player
+receiver
+speaker
+subwoofer
+tripod
+radio
+video game
+game controller
+camera
+video camera
+backboard
+basketball hoop
+net
+soccer ball
+football
+volleyball
+baseball bat
+baseball mitt
+baseball helmet
+basketball
+baseball
+softball
+tennis bag
+net
+ping pong table
+ping pong paddle
+tennis racket
+racketball racket
+bow
+arrow
+target
+ball
+badminton racket
+birdie
+golf cart
+golf club
+driver
+wood
+iron
+sand wedge
+putter
+golf bag
+tee
+glove
+hole
+sled
+snowboard
+skis
+ski boots
+ice skates
+roller blades
+goal
+skateboard
+frisbee
+ski poles
+hockey stick
+puck
+mile
+weight lifting bench
+stereo
+weight plate
+dumbell
+barbell
+weight rack
+fan
+protein powder
+headphones
+mp3 player
+wristband
+treadmill
+elliptical
+exercise bike
+exercise ball
+yoga mat
+stretch band
+water bottle
+jump rope
+piano
+drum set
+bass drum
+ride cymbal
+crash cymbal
+hi-hat
+snare drum
+electric keyboard
+turntable
+microphone
+drum sticks
+ear plugs
+string bass
+cello
+viola
+violin
+string
+amplifier
+electric guitar
+acoustic guitar
+bass guitar
+bow
+rosin
+pick
+trumpet
+trombone
+tuba
+french horn
+saxophone
+clarinet
+oboe
+flute
+bassoon
+recorder
+harmonica
+piccolo
+art studio
+easel
+paint
+colored pencil
+crayon
+marker
+yarn
+sewing machine
+brush
+needle

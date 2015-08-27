@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6836147A1B8E0959009598A5 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 683614791B8E0959009598A5 /* View3.m */; };
+		6836147C1B8E1A80009598A5 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6836147B1B8E1A80009598A5 /* keys.txt */; };
 		6879B2731B8CEAD60045142F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879B2721B8CEAD60045142F /* main.m */; };
 		6879B2761B8CEAD60045142F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879B2751B8CEAD60045142F /* AppDelegate.m */; };
 		6879B2791B8CEAD60045142F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879B2781B8CEAD60045142F /* ViewController.m */; };
@@ -892,7 +894,6 @@
 		6879BA8D1B8D06E00045142F /* hole.png in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8611B8D06DE0045142F /* hole.png */; };
 		6879BA8E1B8D06E00045142F /* hole-punch.png in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8621B8D06DE0045142F /* hole-punch.png */; };
 		6879BA8F1B8D06E00045142F /* hockey-stick.png in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8631B8D06DE0045142F /* hockey-stick.png */; };
-		6879BA901B8D06E00045142F /* highlighter.psd in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8641B8D06DE0045142F /* highlighter.psd */; };
 		6879BA911B8D06E00045142F /* highlighter.png in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8651B8D06DE0045142F /* highlighter.png */; };
 		6879BA921B8D06E00045142F /* high-heels.png in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8661B8D06DE0045142F /* high-heels.png */; };
 		6879BA931B8D06E00045142F /* hi-hat.png in Resources */ = {isa = PBXBuildFile; fileRef = 6879B8671B8D06DE0045142F /* hi-hat.png */; };
@@ -1142,6 +1143,9 @@
 
 /* Begin PBXFileReference section */
 		4C0B0E85C8A25EF9AD5A17DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		683614781B8E0959009598A5 /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
+		683614791B8E0959009598A5 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
+		6836147B1B8E1A80009598A5 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
 		6879B26D1B8CEAD60045142F /* Sticktionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sticktionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6879B2711B8CEAD60045142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6879B2721B8CEAD60045142F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -2035,7 +2039,6 @@
 		6879B8611B8D06DE0045142F /* hole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hole.png; sourceTree = "<group>"; };
 		6879B8621B8D06DE0045142F /* hole-punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hole-punch.png"; sourceTree = "<group>"; };
 		6879B8631B8D06DE0045142F /* hockey-stick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hockey-stick.png"; sourceTree = "<group>"; };
-		6879B8641B8D06DE0045142F /* highlighter.psd */ = {isa = PBXFileReference; lastKnownFileType = file; path = highlighter.psd; sourceTree = "<group>"; };
 		6879B8651B8D06DE0045142F /* highlighter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highlighter.png; sourceTree = "<group>"; };
 		6879B8661B8D06DE0045142F /* high-heels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "high-heels.png"; sourceTree = "<group>"; };
 		6879B8671B8D06DE0045142F /* hi-hat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hi-hat.png"; sourceTree = "<group>"; };
@@ -2343,10 +2346,13 @@
 				6879B2771B8CEAD60045142F /* ViewController.h */,
 				6879B2781B8CEAD60045142F /* ViewController.m */,
 				6879B27A1B8CEAD60045142F /* Main.storyboard */,
+				6836147B1B8E1A80009598A5 /* keys.txt */,
 				6879B2961B8CEF250045142F /* View1.h */,
 				6879B2971B8CEF250045142F /* View1.m */,
 				6879B2991B8CF0C10045142F /* View2.h */,
 				6879B29A1B8CF0C10045142F /* View2.m */,
+				683614781B8E0959009598A5 /* View3.h */,
+				683614791B8E0959009598A5 /* View3.m */,
 				6879BB781B8D0A560045142F /* Character.h */,
 				6879BB791B8D0A560045142F /* Character.m */,
 				6879BB7B1B8D15520045142F /* MeasureWord.h */,
@@ -2712,7 +2718,6 @@
 				6879B8611B8D06DE0045142F /* hole.png */,
 				6879B8621B8D06DE0045142F /* hole-punch.png */,
 				6879B8631B8D06DE0045142F /* hockey-stick.png */,
-				6879B8641B8D06DE0045142F /* highlighter.psd */,
 				6879B8651B8D06DE0045142F /* highlighter.png */,
 				6879B8661B8D06DE0045142F /* high-heels.png */,
 				6879B8671B8D06DE0045142F /* hi-hat.png */,
@@ -3768,7 +3773,6 @@
 				6879B5531B8D06CB0045142F /* chopsticks.mp3 in Resources */,
 				6879B5AC1B8D06CB0045142F /* fitness-room.mp3 in Resources */,
 				6879BA6C1B8D06E00045142F /* level.png in Resources */,
-				6879BA901B8D06E00045142F /* highlighter.psd in Resources */,
 				6879B4FE1B8D06CB0045142F /* amplifier.mp3 in Resources */,
 				6879BAA91B8D06E00045142F /* golf-bag.png in Resources */,
 				6879B9B01B8D06DF0045142F /* steering-wheel.png in Resources */,
@@ -3918,6 +3922,7 @@
 				6879B9B41B8D06DF0045142F /* spoon.png in Resources */,
 				6879B5461B8D06CB0045142F /* carpet.mp3 in Resources */,
 				6879B5021B8D06CB0045142F /* art-studio.mp3 in Resources */,
+				6836147C1B8E1A80009598A5 /* keys.txt in Resources */,
 				6879B94F1B8D06DF0045142F /* yard-stick.png in Resources */,
 				6879B5321B8D06CB0045142F /* bra.mp3 in Resources */,
 				6879B62F1B8D06CB0045142F /* necklace.mp3 in Resources */,
@@ -4757,6 +4762,7 @@
 				6879BB821B8D3E6C0045142F /* HTAutocompleteManager.m in Sources */,
 				6879BB7D1B8D15520045142F /* MeasureWord.m in Sources */,
 				6879B2981B8CEF250045142F /* View1.m in Sources */,
+				6836147A1B8E0959009598A5 /* View3.m in Sources */,
 				6879B2731B8CEAD60045142F /* main.m in Sources */,
 				6879BB7A1B8D0A560045142F /* Character.m in Sources */,
 			);

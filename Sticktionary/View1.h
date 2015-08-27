@@ -8,11 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface View1 : UIViewController <UITableViewDataSource, UITableViewDataSource, UITableViewDelegate>
+@interface View1 : UIViewController <UITableViewDataSource, UITableViewDataSource, UITableViewDelegate, UITextFieldDelegate>
 @property (strong, nonatomic) IBOutlet UITextField *inputText;
 @property (strong, nonatomic) UITableView *autocompleteTableView;
 @property (strong, nonatomic) NSMutableArray *pastUrls;
 @property (strong, nonatomic) NSMutableArray *autocompleteUrls;
+- (void)searchAutocompleteEntriesWithSubstring:(NSString *)substring;
+- (void)textFieldDidChange;
 
 @end
 
