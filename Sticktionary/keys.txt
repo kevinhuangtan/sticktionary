@@ -57,19 +57,19 @@ shelf
 hook
 scarf
 wardrobe
-T-shirt
+t-shirt
 jeans
 hoodie
 sweatpants
 shorts
 dress shirt
 sweatshirt
-long sleeve T-shirt
+long sleeve t-shirt
 suit
 suit jacket
 pants
 wardrobe
-T-shirt
+t-shirt
 jeans
 dress
 skirt

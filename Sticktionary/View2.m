@@ -63,7 +63,7 @@
             
             for(int i = 0; i < [chinese count]; i++){
                 CGRect frame;
-                frame.origin.x = box_size * i + offset + 30;
+                frame.origin.x = box_size * i + offset + 25;
                 frame.origin.y = 60;
                 frame.size = CGSizeMake(box_size, 80);
             

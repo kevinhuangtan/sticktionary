@@ -27,11 +27,10 @@
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSArray *history = [defaults objectForKey:@"history"];
-    
+    NSLog(@"%@", history);
     int image_size = 200;
     int x_offset = (width - 200)/2;
     int margin_offset = 10;
-    
     
     self.scrollView = [UIScrollView alloc];
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 50, width, 500)];
@@ -39,9 +38,7 @@
     [self.scrollView setContentSize:CGSizeMake(320, content_height)];
     [self.scrollView setScrollEnabled:YES];
 
-
     for(int i = 0; i < [history count]; i++){
-        NSLog(@"alloc");
  
         int y_offset = (i * image_size) + (margin_offset * i) + 40;
         

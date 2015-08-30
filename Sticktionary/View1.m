@@ -157,7 +157,6 @@
 
     [defaults synchronize];
     
-    
     [self performSegueWithIdentifier:@"showResultView" sender:self];
 
 }
@@ -189,6 +188,9 @@
         // Get destination view
         View2 *vc = [segue destinationViewController];
         vc.wordKey = self.inputText.text;
+        self.inputText.text = @"";
+        self.autocompleteTableView.hidden = YES;
+
     }
 }
 
