@@ -17,10 +17,7 @@
 @implementation View1
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//    if (section == 0)
-//        return 6;
-//    else
-//        return 3;
+
     return [self.autocompleteUrls count];
 }
 

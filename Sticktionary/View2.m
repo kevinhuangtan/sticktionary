@@ -42,8 +42,6 @@
             NSLog(@"%@", objects[0]);
             
             
-        
-            
 //            add rest of words
             NSMutableArray *chinese = [NSMutableArray array];
             NSString *str = objects[0][@"chinese"];
@@ -101,7 +99,7 @@
             [self.view addSubview:dot];
             
             
-
+ 
 
         }
         else {
@@ -124,8 +122,6 @@
     
     // Initialize a audio player with the URL (the mp3)
     self.audioPlayer = [[AVAudioPlayer alloc] initWithContentsOfURL:audioURL error:nil];
-    
-    
     
     // Start playing
     [self.audioPlayer play];
