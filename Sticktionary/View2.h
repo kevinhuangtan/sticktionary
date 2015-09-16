@@ -12,6 +12,7 @@
 @interface View2 : UIViewController
 
 @property (strong, nonatomic) NSString *wordKey;
+@property (strong, nonatomic) NSString *imgKey;
 @property (weak, nonatomic) IBOutlet UILabel *Result;
 @property (weak, nonatomic) IBOutlet UILabel *chinese;
 @property (weak, nonatomic) IBOutlet UILabel *pinyin;

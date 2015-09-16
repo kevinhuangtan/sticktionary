@@ -187,7 +187,7 @@ belt
 oven
 disposal
 highlighter
-upstairs downstairs
+upstairs / downstairs
 flower
 webcam
 colored pencil
@@ -442,7 +442,7 @@ tennis racket
 horn
 bassoon
 skateboard
-up down
+up / down
 lid
 puck
 chest of drawers

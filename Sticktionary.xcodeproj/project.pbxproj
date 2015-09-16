@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		682EE76F1BA72029006D8C31 /* gasoline.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 682EE76C1BA72029006D8C31 /* gasoline.mp3 */; };
-		682EE7701BA72029006D8C31 /* microwave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 682EE76D1BA72029006D8C31 /* microwave.mp3 */; };
-		682EE7711BA72029006D8C31 /* treadmill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 682EE76E1BA72029006D8C31 /* treadmill.mp3 */; };
 		6836147A1B8E0959009598A5 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 683614791B8E0959009598A5 /* View3.m */; };
 		6836147C1B8E1A80009598A5 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6836147B1B8E1A80009598A5 /* keys.txt */; };
 		686E38A41BA22D270085641B /* clothespin.png in Resources */ = {isa = PBXBuildFile; fileRef = 686E38A31BA22D270085641B /* clothespin.png */; };
@@ -561,8 +559,7 @@
 		688131C11B98A60100CC81C3 /* turn-signal.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F811B98A5FF00CC81C3 /* turn-signal.png */; };
 		688131C21B98A60100CC81C3 /* turntable.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F821B98A5FF00CC81C3 /* turntable.png */; };
 		688131C31B98A60100CC81C3 /* umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F831B98A5FF00CC81C3 /* umbrella.png */; };
-		688131C41B98A60100CC81C3 /* up-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F841B98A5FF00CC81C3 /* up-down.png */; };
-		688131C51B98A60100CC81C3 /* upstairs-downstairs.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F851B98A5FF00CC81C3 /* upstairs-downstairs.png */; };
+		688131C51B98A60100CC81C3 /* upstairs-#-downstairs.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F851B98A5FF00CC81C3 /* upstairs-#-downstairs.png */; };
 		688131C61B98A60100CC81C3 /* utensils.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F861B98A5FF00CC81C3 /* utensils.png */; };
 		688131C71B98A60100CC81C3 /* utility-knife.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F871B98A5FF00CC81C3 /* utility-knife.png */; };
 		688131C81B98A60100CC81C3 /* vacuum-cleaner.png in Resources */ = {isa = PBXBuildFile; fileRef = 68812F881B98A60000CC81C3 /* vacuum-cleaner.png */; };
@@ -821,7 +818,6 @@
 		688135061B98A60900CC81C3 /* golf cart.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132C61B98A60400CC81C3 /* golf cart.mp3 */; };
 		688135071B98A60900CC81C3 /* golf club.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132C71B98A60400CC81C3 /* golf club.mp3 */; };
 		688135081B98A60900CC81C3 /* golf.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132C81B98A60400CC81C3 /* golf.mp3 */; };
-		688135091B98A60900CC81C3 /* grill (kitchen).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132C91B98A60400CC81C3 /* grill (kitchen).mp3 */; };
 		6881350A1B98A60900CC81C3 /* grill (yard).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132CA1B98A60400CC81C3 /* grill (yard).mp3 */; };
 		6881350B1B98A60900CC81C3 /* hair brush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132CB1B98A60400CC81C3 /* hair brush.mp3 */; };
 		6881350C1B98A60900CC81C3 /* hair dryer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132CC1B98A60400CC81C3 /* hair dryer.mp3 */; };
@@ -1133,8 +1129,8 @@
 		688136411B98A60900CC81C3 /* turn signal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134011B98A60800CC81C3 /* turn signal.mp3 */; };
 		688136421B98A60900CC81C3 /* turntable.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134021B98A60800CC81C3 /* turntable.mp3 */; };
 		688136431B98A60900CC81C3 /* umbrella.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134031B98A60800CC81C3 /* umbrella.mp3 */; };
-		688136441B98A60900CC81C3 /* up down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134041B98A60800CC81C3 /* up down.mp3 */; };
-		688136451B98A60900CC81C3 /* upstairs downstairs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134051B98A60800CC81C3 /* upstairs downstairs.mp3 */; };
+		688136441B98A60900CC81C3 /* up # down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134041B98A60800CC81C3 /* up # down.mp3 */; };
+		688136451B98A60900CC81C3 /* upstairs # downstairs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134051B98A60800CC81C3 /* upstairs # downstairs.mp3 */; };
 		688136461B98A60900CC81C3 /* utensils.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134061B98A60800CC81C3 /* utensils.mp3 */; };
 		688136471B98A60900CC81C3 /* utility knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134071B98A60800CC81C3 /* utility knife.mp3 */; };
 		688136481B98A60900CC81C3 /* vacuum cleaner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688134081B98A60800CC81C3 /* vacuum cleaner.mp3 */; };
@@ -1175,6 +1171,10 @@
 		6881366B1B98A60900CC81C3 /* yardstick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881342B1B98A60900CC81C3 /* yardstick.mp3 */; };
 		6881366C1B98A60900CC81C3 /* yarn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881342C1B98A60900CC81C3 /* yarn.mp3 */; };
 		6881366D1B98A60900CC81C3 /* yoga mat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881342D1B98A60900CC81C3 /* yoga mat.mp3 */; };
+		68F64F721BAA1F3100C79F57 /* treadmill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68F64F711BAA1F3100C79F57 /* treadmill.mp3 */; };
+		68F64F781BAA203900C79F57 /* up-#-down.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F64F771BAA203900C79F57 /* up-#-down.png */; };
+		68F64F7A1BAA213600C79F57 /* microwave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68F64F791BAA213600C79F57 /* microwave.mp3 */; };
+		68F64F7C1BAA214900C79F57 /* grill (kitchen).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 68F64F7B1BAA214900C79F57 /* grill (kitchen).mp3 */; };
 		B3D4A27E5602E46C7CADDCB9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF9FFC15D1FC3F5DEFDD0C74 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -1191,8 +1191,6 @@
 /* Begin PBXFileReference section */
 		4C0B0E85C8A25EF9AD5A17DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		682EE76C1BA72029006D8C31 /* gasoline.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gasoline.mp3; sourceTree = "<group>"; };
-		682EE76D1BA72029006D8C31 /* microwave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = microwave.mp3; sourceTree = "<group>"; };
-		682EE76E1BA72029006D8C31 /* treadmill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = treadmill.mp3; sourceTree = "<group>"; };
 		683614781B8E0959009598A5 /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
 		683614791B8E0959009598A5 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
 		6836147B1B8E1A80009598A5 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
@@ -1756,8 +1754,7 @@
 		68812F811B98A5FF00CC81C3 /* turn-signal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "turn-signal.png"; sourceTree = "<group>"; };
 		68812F821B98A5FF00CC81C3 /* turntable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = turntable.png; sourceTree = "<group>"; };
 		68812F831B98A5FF00CC81C3 /* umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella.png; sourceTree = "<group>"; };
-		68812F841B98A5FF00CC81C3 /* up-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-down.png"; sourceTree = "<group>"; };
-		68812F851B98A5FF00CC81C3 /* upstairs-downstairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upstairs-downstairs.png"; sourceTree = "<group>"; };
+		68812F851B98A5FF00CC81C3 /* upstairs-#-downstairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upstairs-#-downstairs.png"; sourceTree = "<group>"; };
 		68812F861B98A5FF00CC81C3 /* utensils.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = utensils.png; sourceTree = "<group>"; };
 		68812F871B98A5FF00CC81C3 /* utility-knife.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "utility-knife.png"; sourceTree = "<group>"; };
 		68812F881B98A60000CC81C3 /* vacuum-cleaner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vacuum-cleaner.png"; sourceTree = "<group>"; };
@@ -2016,7 +2013,6 @@
 		688132C61B98A60400CC81C3 /* golf cart.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "golf cart.mp3"; sourceTree = "<group>"; };
 		688132C71B98A60400CC81C3 /* golf club.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "golf club.mp3"; sourceTree = "<group>"; };
 		688132C81B98A60400CC81C3 /* golf.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = golf.mp3; sourceTree = "<group>"; };
-		688132C91B98A60400CC81C3 /* grill (kitchen).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "grill (kitchen).mp3"; sourceTree = "<group>"; };
 		688132CA1B98A60400CC81C3 /* grill (yard).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "grill (yard).mp3"; sourceTree = "<group>"; };
 		688132CB1B98A60400CC81C3 /* hair brush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hair brush.mp3"; sourceTree = "<group>"; };
 		688132CC1B98A60400CC81C3 /* hair dryer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "hair dryer.mp3"; sourceTree = "<group>"; };
@@ -2328,8 +2324,8 @@
 		688134011B98A60800CC81C3 /* turn signal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "turn signal.mp3"; sourceTree = "<group>"; };
 		688134021B98A60800CC81C3 /* turntable.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = turntable.mp3; sourceTree = "<group>"; };
 		688134031B98A60800CC81C3 /* umbrella.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = umbrella.mp3; sourceTree = "<group>"; };
-		688134041B98A60800CC81C3 /* up down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up down.mp3"; sourceTree = "<group>"; };
-		688134051B98A60800CC81C3 /* upstairs downstairs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "upstairs downstairs.mp3"; sourceTree = "<group>"; };
+		688134041B98A60800CC81C3 /* up # down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "up # down.mp3"; sourceTree = "<group>"; };
+		688134051B98A60800CC81C3 /* upstairs # downstairs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "upstairs # downstairs.mp3"; sourceTree = "<group>"; };
 		688134061B98A60800CC81C3 /* utensils.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = utensils.mp3; sourceTree = "<group>"; };
 		688134071B98A60800CC81C3 /* utility knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "utility knife.mp3"; sourceTree = "<group>"; };
 		688134081B98A60800CC81C3 /* vacuum cleaner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "vacuum cleaner.mp3"; sourceTree = "<group>"; };
@@ -2370,6 +2366,10 @@
 		6881342B1B98A60900CC81C3 /* yardstick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yardstick.mp3; sourceTree = "<group>"; };
 		6881342C1B98A60900CC81C3 /* yarn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = yarn.mp3; sourceTree = "<group>"; };
 		6881342D1B98A60900CC81C3 /* yoga mat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "yoga mat.mp3"; sourceTree = "<group>"; };
+		68F64F711BAA1F3100C79F57 /* treadmill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = treadmill.mp3; sourceTree = "<group>"; };
+		68F64F771BAA203900C79F57 /* up-#-down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-#-down.png"; sourceTree = "<group>"; };
+		68F64F791BAA213600C79F57 /* microwave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = microwave.mp3; sourceTree = "<group>"; };
+		68F64F7B1BAA214900C79F57 /* grill (kitchen).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "grill (kitchen).mp3"; sourceTree = "<group>"; };
 		DF9FFC15D1FC3F5DEFDD0C74 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F37A1D9E057EBE8676B0010B /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -2494,6 +2494,7 @@
 				68812D701B98A5FA00CC81C3 /* air-conditioning.png */,
 				68812D711B98A5FA00CC81C3 /* air-hockey.png */,
 				68812D721B98A5FA00CC81C3 /* air-pump.png */,
+				68F64F771BAA203900C79F57 /* up-#-down.png */,
 				68812D731B98A5FA00CC81C3 /* alarm-clock.png */,
 				68812D741B98A5FA00CC81C3 /* amplifier.png */,
 				68812D751B98A5FA00CC81C3 /* antifreeze.png */,
@@ -3024,8 +3025,7 @@
 				68812F811B98A5FF00CC81C3 /* turn-signal.png */,
 				68812F821B98A5FF00CC81C3 /* turntable.png */,
 				68812F831B98A5FF00CC81C3 /* umbrella.png */,
-				68812F841B98A5FF00CC81C3 /* up-down.png */,
-				68812F851B98A5FF00CC81C3 /* upstairs-downstairs.png */,
+				68812F851B98A5FF00CC81C3 /* upstairs-#-downstairs.png */,
 				68812F861B98A5FF00CC81C3 /* utensils.png */,
 				68812F871B98A5FF00CC81C3 /* utility-knife.png */,
 				68812F881B98A60000CC81C3 /* vacuum-cleaner.png */,
@@ -3076,7 +3076,9 @@
 				688131EE1B98A60200CC81C3 /* acoustic guitar.mp3 */,
 				688131EF1B98A60200CC81C3 /* air conditioner.mp3 */,
 				688131F01B98A60200CC81C3 /* air conditioning.mp3 */,
+				68F64F711BAA1F3100C79F57 /* treadmill.mp3 */,
 				688131F11B98A60200CC81C3 /* air hockey.mp3 */,
+				68F64F7B1BAA214900C79F57 /* grill (kitchen).mp3 */,
 				688131F21B98A60200CC81C3 /* air pump.mp3 */,
 				688131F31B98A60200CC81C3 /* alarm clock.mp3 */,
 				688131F41B98A60200CC81C3 /* amplifier.mp3 */,
@@ -3101,6 +3103,7 @@
 				688132071B98A60200CC81C3 /* basketball.mp3 */,
 				688132081B98A60200CC81C3 /* bass drum.mp3 */,
 				688132091B98A60200CC81C3 /* bass guitar.mp3 */,
+				68F64F791BAA213600C79F57 /* microwave.mp3 */,
 				6881320A1B98A60200CC81C3 /* bassoon.mp3 */,
 				6881320B1B98A60200CC81C3 /* bathroom.mp3 */,
 				6881320C1B98A60200CC81C3 /* bathtub.mp3 */,
@@ -3289,13 +3292,10 @@
 				688132C31B98A60400CC81C3 /* goal.mp3 */,
 				688132C41B98A60400CC81C3 /* goggles.mp3 */,
 				682EE76C1BA72029006D8C31 /* gasoline.mp3 */,
-				682EE76D1BA72029006D8C31 /* microwave.mp3 */,
-				682EE76E1BA72029006D8C31 /* treadmill.mp3 */,
 				688132C51B98A60400CC81C3 /* golf bag.mp3 */,
 				688132C61B98A60400CC81C3 /* golf cart.mp3 */,
 				688132C71B98A60400CC81C3 /* golf club.mp3 */,
 				688132C81B98A60400CC81C3 /* golf.mp3 */,
-				688132C91B98A60400CC81C3 /* grill (kitchen).mp3 */,
 				688132CA1B98A60400CC81C3 /* grill (yard).mp3 */,
 				688132CB1B98A60400CC81C3 /* hair brush.mp3 */,
 				688132CC1B98A60400CC81C3 /* hair dryer.mp3 */,
@@ -3608,8 +3608,8 @@
 				688134011B98A60800CC81C3 /* turn signal.mp3 */,
 				688134021B98A60800CC81C3 /* turntable.mp3 */,
 				688134031B98A60800CC81C3 /* umbrella.mp3 */,
-				688134041B98A60800CC81C3 /* up down.mp3 */,
-				688134051B98A60800CC81C3 /* upstairs downstairs.mp3 */,
+				688134041B98A60800CC81C3 /* up # down.mp3 */,
+				688134051B98A60800CC81C3 /* upstairs # downstairs.mp3 */,
 				688134061B98A60800CC81C3 /* utensils.mp3 */,
 				688134071B98A60800CC81C3 /* utility knife.mp3 */,
 				688134081B98A60800CC81C3 /* vacuum cleaner.mp3 */,
@@ -3740,6 +3740,7 @@
 				688135361B98A60900CC81C3 /* king.mp3 in Resources */,
 				688134D11B98A60900CC81C3 /* electric razor.mp3 in Resources */,
 				688135661B98A60900CC81C3 /* mouse.mp3 in Resources */,
+				68F64F7C1BAA214900C79F57 /* grill (kitchen).mp3 in Resources */,
 				688134661B98A60900CC81C3 /* bow tie.mp3 in Resources */,
 				688130C21B98A60100CC81C3 /* leather-shoes.png in Resources */,
 				688134F81B98A60900CC81C3 /* game controller.mp3 in Resources */,
@@ -3843,7 +3844,6 @@
 				688130701B98A60100CC81C3 /* foosball.png in Resources */,
 				688136281B98A60900CC81C3 /* tin foil.mp3 in Resources */,
 				6881310C1B98A60100CC81C3 /* paper-tray.png in Resources */,
-				688131C41B98A60100CC81C3 /* up-down.png in Resources */,
 				6881356C1B98A60900CC81C3 /* nail.mp3 in Resources */,
 				688134D01B98A60900CC81C3 /* electric keyboard.mp3 in Resources */,
 				688130E31B98A60100CC81C3 /* moped.png in Resources */,
@@ -4196,10 +4196,9 @@
 				68812FC81B98A60100CC81C3 /* bass-drum.png in Resources */,
 				688131771B98A60100CC81C3 /* softball.png in Resources */,
 				688130FC1B98A60100CC81C3 /* outlet.png in Resources */,
-				688135091B98A60900CC81C3 /* grill (kitchen).mp3 in Resources */,
 				688136671B98A60900CC81C3 /* wrench.mp3 in Resources */,
 				688131141B98A60100CC81C3 /* piano.png in Resources */,
-				688136451B98A60900CC81C3 /* upstairs downstairs.mp3 in Resources */,
+				688136451B98A60900CC81C3 /* upstairs # downstairs.mp3 in Resources */,
 				6881356B1B98A60900CC81C3 /* nail polish.mp3 in Resources */,
 				688131DA1B98A60100CC81C3 /* weight-plate.png in Resources */,
 				688135011B98A60900CC81C3 /* gloves.mp3 in Resources */,
@@ -4255,7 +4254,7 @@
 				688135C51B98A60900CC81C3 /* rosin.mp3 in Resources */,
 				68812FF71B98A60100CC81C3 /* calendar.png in Resources */,
 				688130131B98A60100CC81C3 /* clock.png in Resources */,
-				688131C51B98A60100CC81C3 /* upstairs-downstairs.png in Resources */,
+				688131C51B98A60100CC81C3 /* upstairs-#-downstairs.png in Resources */,
 				688131D81B98A60100CC81C3 /* webcam.png in Resources */,
 				688131C31B98A60100CC81C3 /* umbrella.png in Resources */,
 				688135581B98A60900CC81C3 /* mattress.mp3 in Resources */,
@@ -4391,7 +4390,7 @@
 				6881315C1B98A60100CC81C3 /* shelf.png in Resources */,
 				688135871B98A60900CC81C3 /* pantyhose.mp3 in Resources */,
 				688134FC1B98A60900CC81C3 /* garden.mp3 in Resources */,
-				682EE7711BA72029006D8C31 /* treadmill.mp3 in Resources */,
+				68F64F721BAA1F3100C79F57 /* treadmill.mp3 in Resources */,
 				68812FFA1B98A60100CC81C3 /* car-key.png in Resources */,
 				688130D81B98A60100CC81C3 /* mattress.png in Resources */,
 				6881352E1B98A60900CC81C3 /* jeans (men's).mp3 in Resources */,
@@ -4418,7 +4417,6 @@
 				688135AE1B98A60900CC81C3 /* protein powder.mp3 in Resources */,
 				688131A41B98A60100CC81C3 /* television.png in Resources */,
 				688135711B98A60900CC81C3 /* net (basketball).mp3 in Resources */,
-				682EE7701BA72029006D8C31 /* microwave.mp3 in Resources */,
 				688134A61B98A60900CC81C3 /* countertop.mp3 in Resources */,
 				688131D11B98A60100CC81C3 /* wallet.png in Resources */,
 				688135E41B98A60900CC81C3 /* shower.mp3 in Resources */,
@@ -4476,6 +4474,7 @@
 				688135311B98A60900CC81C3 /* jewelry.mp3 in Resources */,
 				6881316C1B98A60100CC81C3 /* sled.png in Resources */,
 				68812FB81B98A60000CC81C3 /* art-studio.png in Resources */,
+				68F64F781BAA203900C79F57 /* up-#-down.png in Resources */,
 				68812FB21B98A60000CC81C3 /* air-pump.png in Resources */,
 				6881344F1B98A60900CC81C3 /* bedsheet.mp3 in Resources */,
 				688134DF1B98A60900CC81C3 /* faucet (kitchen).mp3 in Resources */,
@@ -4533,6 +4532,7 @@
 				68812FFC1B98A60100CC81C3 /* car.png in Resources */,
 				688135991B98A60900CC81C3 /* pillow.mp3 in Resources */,
 				688130691B98A60100CC81C3 /* floor-lamp.png in Resources */,
+				68F64F7A1BAA213600C79F57 /* microwave.mp3 in Resources */,
 				688136691B98A60900CC81C3 /* wristband.mp3 in Resources */,
 				688135291B98A60900CC81C3 /* ice cube.mp3 in Resources */,
 				6881317D1B98A60100CC81C3 /* sponge.png in Resources */,
@@ -4550,7 +4550,7 @@
 				6881310D1B98A60100CC81C3 /* paper.png in Resources */,
 				688135E91B98A60900CC81C3 /* ski poles.mp3 in Resources */,
 				6881314F1B98A60100CC81C3 /* scanner.png in Resources */,
-				688136441B98A60900CC81C3 /* up down.mp3 in Resources */,
+				688136441B98A60900CC81C3 /* up # down.mp3 in Resources */,
 				688131321B98A60100CC81C3 /* racketball-racket.png in Resources */,
 				688136001B98A60900CC81C3 /* stamp.mp3 in Resources */,
 				688130711B98A60100CC81C3 /* football.png in Resources */,

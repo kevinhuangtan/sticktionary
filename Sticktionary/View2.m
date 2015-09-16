@@ -97,14 +97,19 @@
                 [self.view addSubview:character];
 
             }
-            
+            self.imgKey = self.wordKey;
     
-            self.wordKey = [self.wordKey stringByReplacingOccurrencesOfString:@" "
+            self.imgKey = [self.imgKey stringByReplacingOccurrencesOfString:@" "
                                                  withString:@"-"];
+            self.imgKey = [self.imgKey stringByReplacingOccurrencesOfString:@"/"
+                                                                   withString:@"#"];
+            NSLog(@"%@", self.imgKey);
+            NSLog(@"%@", self.wordKey);
+
             
             int img_offset = (width - 250)/2;
             UIImageView *dot =[[UIImageView alloc] initWithFrame:CGRectMake(img_offset,150,250,250)];
-            dot.image=[UIImage imageNamed:[NSString stringWithFormat:@"%@%@", self.wordKey, @".png"]];
+            dot.image=[UIImage imageNamed:[NSString stringWithFormat:@"%@%@", self.imgKey, @".png"]];
             dot.contentMode   = UIViewContentModeScaleAspectFit;
             [self.view addSubview:dot];
             
