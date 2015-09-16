@@ -40,7 +40,8 @@
     [query findObjectsInBackgroundWithBlock:^(NSArray *objects, NSError *error) {
         if (!error) {
             NSLog(@"%@", objects[0]);
-            
+            NSString *measure_pin = [NSString stringWithFormat:@"%@%@%@", @"(", objects[0][@"measure_eng"], @")"];
+        
             
 //            add rest of words
             NSMutableArray *chinese = [NSMutableArray array];
@@ -57,11 +58,15 @@
 
             int offset = (width - [chinese count] * 45)/2;
             int box_size = 50;
-
+            int measure_offset = 15;
+            if(objects[0][@"measure_eng"] == (id)[NSNull null] || objects[0][@"measure_eng"] == 0 ){
+                NSLog(@"no measure word");
+                measure_offset = -8;
+            }
             
             for(int i = 0; i < [chinese count]; i++){
                 CGRect frame;
-                frame.origin.x = box_size * i + offset + 25;
+                frame.origin.x = box_size * i + offset + measure_offset;
                 frame.origin.y = 60;
                 frame.size = CGSizeMake(box_size, 80);
             
@@ -74,19 +79,24 @@
             }
             
             //            add measure word
-            NSString *measure_pin = [NSString stringWithFormat:@"%@%@%@", @"(", objects[0][@"measure_eng"], @")"];
+
             NSString *measure_chi =[NSString stringWithFormat:@"%@%@%@", @"(", objects[0][@"measure_chi"], @")"];
             
             CGRect frame;
-            frame.origin.x = offset - 25;
+            frame.origin.x = offset - measure_offset - 25;
             frame.origin.y = 60;
             frame.size = CGSizeMake(60, 80);
             MeasureWord *character = [[MeasureWord alloc]initWithFrame:frame];
             character.chineseChar = measure_chi;
             character.pinyinChar = measure_pin;
             [character addLabels];
-            
-            [self.view addSubview:character];
+            if(objects[0][@"measure_eng"] == (id)[NSNull null] || objects[0][@"measure_eng"] == 0 ){
+                
+            }
+            else{
+                [self.view addSubview:character];
+
+            }
             
     
             self.wordKey = [self.wordKey stringByReplacingOccurrencesOfString:@" "
@@ -98,8 +108,6 @@
             dot.contentMode   = UIViewContentModeScaleAspectFit;
             [self.view addSubview:dot];
             
-            
- 
 
         }
         else {

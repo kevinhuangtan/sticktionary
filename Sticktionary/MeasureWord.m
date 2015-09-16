@@ -24,7 +24,10 @@
     [chineseLabel setTextColor:[UIColor blackColor]];
     [chineseLabel setFont:[UIFont fontWithName: @"Trebuchet MS" size: 25.0f]];
     chineseLabel.text = self.chineseChar;
+    NSLog(@"Chinese Char: %@", self.chineseChar);
+
     [self addSubview:chineseLabel];
+
     
     [chineseLabel setTextAlignment:UITextAlignmentCenter];
     
@@ -35,6 +38,7 @@
     pinyinLabel.text = self.pinyinChar;
     
     [pinyinLabel setTextAlignment:UITextAlignmentCenter];
+
     [self addSubview:pinyinLabel];
     
     return self;

@@ -75,7 +75,7 @@ snare drum
 toilet
 iron (laundry room)
 electric guitar
-garage door
+gsarage door
 subwoofer
 vice
 pot
@@ -147,7 +147,7 @@ skirt
 king
 trumpet
 brush
-garage
+garaged
 cotton swab
 hard drive
 coat

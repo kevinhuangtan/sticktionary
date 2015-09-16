@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		682EE76F1BA72029006D8C31 /* gasoline.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 682EE76C1BA72029006D8C31 /* gasoline.mp3 */; };
+		682EE7701BA72029006D8C31 /* microwave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 682EE76D1BA72029006D8C31 /* microwave.mp3 */; };
+		682EE7711BA72029006D8C31 /* treadmill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 682EE76E1BA72029006D8C31 /* treadmill.mp3 */; };
 		6836147A1B8E0959009598A5 /* View3.m in Sources */ = {isa = PBXBuildFile; fileRef = 683614791B8E0959009598A5 /* View3.m */; };
 		6836147C1B8E1A80009598A5 /* keys.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6836147B1B8E1A80009598A5 /* keys.txt */; };
+		686E38A41BA22D270085641B /* clothespin.png in Resources */ = {isa = PBXBuildFile; fileRef = 686E38A31BA22D270085641B /* clothespin.png */; };
+		686E38A61BA22D430085641B /* clothespin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 686E38A51BA22D430085641B /* clothespin.mp3 */; };
+		686E38A81BA22D740085641B /* snowboard.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 686E38A71BA22D740085641B /* snowboard.mp3 */; };
 		6879B2731B8CEAD60045142F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879B2721B8CEAD60045142F /* main.m */; };
 		6879B2761B8CEAD60045142F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879B2751B8CEAD60045142F /* AppDelegate.m */; };
 		6879B2791B8CEAD60045142F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6879B2781B8CEAD60045142F /* ViewController.m */; };
@@ -805,7 +811,6 @@
 		688134FB1B98A60900CC81C3 /* garage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132BB1B98A60400CC81C3 /* garage.mp3 */; };
 		688134FC1B98A60900CC81C3 /* garden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132BC1B98A60400CC81C3 /* garden.mp3 */; };
 		688134FD1B98A60900CC81C3 /* gas canister.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132BD1B98A60400CC81C3 /* gas canister.mp3 */; };
-		688134FE1B98A60900CC81C3 /* gasoline.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132BE1B98A60400CC81C3 /* gasoline.mp3 */; };
 		688134FF1B98A60900CC81C3 /* glasses.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132BF1B98A60400CC81C3 /* glasses.mp3 */; };
 		688135001B98A60900CC81C3 /* glove (sports).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132C01B98A60400CC81C3 /* glove (sports).mp3 */; };
 		688135011B98A60900CC81C3 /* gloves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688132C11B98A60400CC81C3 /* gloves.mp3 */; };
@@ -898,7 +903,6 @@
 		688135581B98A60900CC81C3 /* mattress.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133181B98A60500CC81C3 /* mattress.mp3 */; };
 		688135591B98A60900CC81C3 /* medicine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133191B98A60500CC81C3 /* medicine.mp3 */; };
 		6881355A1B98A60900CC81C3 /* microphone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881331A1B98A60500CC81C3 /* microphone.mp3 */; };
-		6881355B1B98A60900CC81C3 /* microwave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881331B1B98A60500CC81C3 /* microwave.mp3 */; };
 		6881355C1B98A60900CC81C3 /* mile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881331C1B98A60500CC81C3 /* mile.mp3 */; };
 		6881355D1B98A60900CC81C3 /* mirror (bathroom).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881331D1B98A60500CC81C3 /* mirror (bathroom).mp3 */; };
 		6881355E1B98A60900CC81C3 /* mirror (bedroom).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6881331E1B98A60500CC81C3 /* mirror (bedroom).mp3 */; };
@@ -1048,7 +1052,6 @@
 		688135EE1B98A60900CC81C3 /* slow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133AE1B98A60700CC81C3 /* slow.mp3 */; };
 		688135EF1B98A60900CC81C3 /* snare drum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133AF1B98A60700CC81C3 /* snare drum.mp3 */; };
 		688135F01B98A60900CC81C3 /* snow brush.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133B01B98A60700CC81C3 /* snow brush.mp3 */; };
-		688135F11B98A60900CC81C3 /* snowbaord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133B11B98A60700CC81C3 /* snowbaord.mp3 */; };
 		688135F21B98A60900CC81C3 /* soap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133B21B98A60700CC81C3 /* soap.mp3 */; };
 		688135F31B98A60900CC81C3 /* soccer ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133B31B98A60700CC81C3 /* soccer ball.mp3 */; };
 		688135F41B98A60900CC81C3 /* socket.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133B41B98A60700CC81C3 /* socket.mp3 */; };
@@ -1119,7 +1122,6 @@
 		688136351B98A60900CC81C3 /* trash can (bedroom).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133F51B98A60800CC81C3 /* trash can (bedroom).mp3 */; };
 		688136361B98A60900CC81C3 /* trash can (garage).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133F61B98A60800CC81C3 /* trash can (garage).mp3 */; };
 		688136371B98A60900CC81C3 /* trash can (kitchen).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133F71B98A60800CC81C3 /* trash can (kitchen).mp3 */; };
-		688136381B98A60900CC81C3 /* treadmill.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133F81B98A60800CC81C3 /* treadmill.mp3 */; };
 		688136391B98A60900CC81C3 /* tree.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133F91B98A60800CC81C3 /* tree.mp3 */; };
 		6881363A1B98A60900CC81C3 /* triangle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133FA1B98A60800CC81C3 /* triangle.mp3 */; };
 		6881363B1B98A60900CC81C3 /* tripod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 688133FB1B98A60800CC81C3 /* tripod.mp3 */; };
@@ -1188,9 +1190,15 @@
 
 /* Begin PBXFileReference section */
 		4C0B0E85C8A25EF9AD5A17DC /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		682EE76C1BA72029006D8C31 /* gasoline.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gasoline.mp3; sourceTree = "<group>"; };
+		682EE76D1BA72029006D8C31 /* microwave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = microwave.mp3; sourceTree = "<group>"; };
+		682EE76E1BA72029006D8C31 /* treadmill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = treadmill.mp3; sourceTree = "<group>"; };
 		683614781B8E0959009598A5 /* View3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View3.h; sourceTree = "<group>"; };
 		683614791B8E0959009598A5 /* View3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View3.m; sourceTree = "<group>"; };
 		6836147B1B8E1A80009598A5 /* keys.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = keys.txt; sourceTree = "<group>"; };
+		686E38A31BA22D270085641B /* clothespin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clothespin.png; sourceTree = "<group>"; };
+		686E38A51BA22D430085641B /* clothespin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clothespin.mp3; sourceTree = "<group>"; };
+		686E38A71BA22D740085641B /* snowboard.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snowboard.mp3; sourceTree = "<group>"; };
 		6879B26D1B8CEAD60045142F /* Sticktionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sticktionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6879B2711B8CEAD60045142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6879B2721B8CEAD60045142F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -1998,7 +2006,6 @@
 		688132BB1B98A60400CC81C3 /* garage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = garage.mp3; sourceTree = "<group>"; };
 		688132BC1B98A60400CC81C3 /* garden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = garden.mp3; sourceTree = "<group>"; };
 		688132BD1B98A60400CC81C3 /* gas canister.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "gas canister.mp3"; sourceTree = "<group>"; };
-		688132BE1B98A60400CC81C3 /* gasoline.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gasoline.mp3; sourceTree = "<group>"; };
 		688132BF1B98A60400CC81C3 /* glasses.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = glasses.mp3; sourceTree = "<group>"; };
 		688132C01B98A60400CC81C3 /* glove (sports).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "glove (sports).mp3"; sourceTree = "<group>"; };
 		688132C11B98A60400CC81C3 /* gloves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gloves.mp3; sourceTree = "<group>"; };
@@ -2091,7 +2098,6 @@
 		688133181B98A60500CC81C3 /* mattress.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mattress.mp3; sourceTree = "<group>"; };
 		688133191B98A60500CC81C3 /* medicine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = medicine.mp3; sourceTree = "<group>"; };
 		6881331A1B98A60500CC81C3 /* microphone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = microphone.mp3; sourceTree = "<group>"; };
-		6881331B1B98A60500CC81C3 /* microwave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = microwave.mp3; sourceTree = "<group>"; };
 		6881331C1B98A60500CC81C3 /* mile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mile.mp3; sourceTree = "<group>"; };
 		6881331D1B98A60500CC81C3 /* mirror (bathroom).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mirror (bathroom).mp3"; sourceTree = "<group>"; };
 		6881331E1B98A60500CC81C3 /* mirror (bedroom).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "mirror (bedroom).mp3"; sourceTree = "<group>"; };
@@ -2241,7 +2247,6 @@
 		688133AE1B98A60700CC81C3 /* slow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slow.mp3; sourceTree = "<group>"; };
 		688133AF1B98A60700CC81C3 /* snare drum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snare drum.mp3"; sourceTree = "<group>"; };
 		688133B01B98A60700CC81C3 /* snow brush.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "snow brush.mp3"; sourceTree = "<group>"; };
-		688133B11B98A60700CC81C3 /* snowbaord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snowbaord.mp3; sourceTree = "<group>"; };
 		688133B21B98A60700CC81C3 /* soap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soap.mp3; sourceTree = "<group>"; };
 		688133B31B98A60700CC81C3 /* soccer ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soccer ball.mp3"; sourceTree = "<group>"; };
 		688133B41B98A60700CC81C3 /* socket.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = socket.mp3; sourceTree = "<group>"; };
@@ -2312,7 +2317,6 @@
 		688133F51B98A60800CC81C3 /* trash can (bedroom).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "trash can (bedroom).mp3"; sourceTree = "<group>"; };
 		688133F61B98A60800CC81C3 /* trash can (garage).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "trash can (garage).mp3"; sourceTree = "<group>"; };
 		688133F71B98A60800CC81C3 /* trash can (kitchen).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "trash can (kitchen).mp3"; sourceTree = "<group>"; };
-		688133F81B98A60800CC81C3 /* treadmill.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = treadmill.mp3; sourceTree = "<group>"; };
 		688133F91B98A60800CC81C3 /* tree.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tree.mp3; sourceTree = "<group>"; };
 		688133FA1B98A60800CC81C3 /* triangle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = triangle.mp3; sourceTree = "<group>"; };
 		688133FB1B98A60800CC81C3 /* tripod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tripod.mp3; sourceTree = "<group>"; };
@@ -2588,6 +2592,7 @@
 				68812DD21B98A5FA00CC81C3 /* cleaning-supplies.png */,
 				68812DD31B98A5FA00CC81C3 /* clock.png */,
 				68812DD41B98A5FA00CC81C3 /* closet.png */,
+				686E38A31BA22D270085641B /* clothespin.png */,
 				68812DD51B98A5FA00CC81C3 /* clothing-pin.png */,
 				68812DD61B98A5FA00CC81C3 /* coaster.png */,
 				68812DD71B98A5FA00CC81C3 /* coat.png */,
@@ -3171,6 +3176,7 @@
 				688132521B98A60200CC81C3 /* cleaning supplies.mp3 */,
 				688132531B98A60200CC81C3 /* clock.mp3 */,
 				688132541B98A60200CC81C3 /* closet.mp3 */,
+				686E38A51BA22D430085641B /* clothespin.mp3 */,
 				688132551B98A60200CC81C3 /* clothing pin.mp3 */,
 				688132561B98A60200CC81C3 /* coaster.mp3 */,
 				688132571B98A60200CC81C3 /* coat.mp3 */,
@@ -3276,13 +3282,15 @@
 				688132BB1B98A60400CC81C3 /* garage.mp3 */,
 				688132BC1B98A60400CC81C3 /* garden.mp3 */,
 				688132BD1B98A60400CC81C3 /* gas canister.mp3 */,
-				688132BE1B98A60400CC81C3 /* gasoline.mp3 */,
 				688132BF1B98A60400CC81C3 /* glasses.mp3 */,
 				688132C01B98A60400CC81C3 /* glove (sports).mp3 */,
 				688132C11B98A60400CC81C3 /* gloves.mp3 */,
 				688132C21B98A60400CC81C3 /* glue.mp3 */,
 				688132C31B98A60400CC81C3 /* goal.mp3 */,
 				688132C41B98A60400CC81C3 /* goggles.mp3 */,
+				682EE76C1BA72029006D8C31 /* gasoline.mp3 */,
+				682EE76D1BA72029006D8C31 /* microwave.mp3 */,
+				682EE76E1BA72029006D8C31 /* treadmill.mp3 */,
 				688132C51B98A60400CC81C3 /* golf bag.mp3 */,
 				688132C61B98A60400CC81C3 /* golf cart.mp3 */,
 				688132C71B98A60400CC81C3 /* golf club.mp3 */,
@@ -3369,7 +3377,6 @@
 				688133181B98A60500CC81C3 /* mattress.mp3 */,
 				688133191B98A60500CC81C3 /* medicine.mp3 */,
 				6881331A1B98A60500CC81C3 /* microphone.mp3 */,
-				6881331B1B98A60500CC81C3 /* microwave.mp3 */,
 				6881331C1B98A60500CC81C3 /* mile.mp3 */,
 				6881331D1B98A60500CC81C3 /* mirror (bathroom).mp3 */,
 				6881331E1B98A60500CC81C3 /* mirror (bedroom).mp3 */,
@@ -3519,7 +3526,7 @@
 				688133AE1B98A60700CC81C3 /* slow.mp3 */,
 				688133AF1B98A60700CC81C3 /* snare drum.mp3 */,
 				688133B01B98A60700CC81C3 /* snow brush.mp3 */,
-				688133B11B98A60700CC81C3 /* snowbaord.mp3 */,
+				686E38A71BA22D740085641B /* snowboard.mp3 */,
 				688133B21B98A60700CC81C3 /* soap.mp3 */,
 				688133B31B98A60700CC81C3 /* soccer ball.mp3 */,
 				688133B41B98A60700CC81C3 /* socket.mp3 */,
@@ -3590,7 +3597,6 @@
 				688133F51B98A60800CC81C3 /* trash can (bedroom).mp3 */,
 				688133F61B98A60800CC81C3 /* trash can (garage).mp3 */,
 				688133F71B98A60800CC81C3 /* trash can (kitchen).mp3 */,
-				688133F81B98A60800CC81C3 /* treadmill.mp3 */,
 				688133F91B98A60800CC81C3 /* tree.mp3 */,
 				688133FA1B98A60800CC81C3 /* triangle.mp3 */,
 				688133FB1B98A60800CC81C3 /* tripod.mp3 */,
@@ -3750,7 +3756,6 @@
 				6881313B1B98A60100CC81C3 /* recorder.png in Resources */,
 				688131381B98A60100CC81C3 /* razor.png in Resources */,
 				688131791B98A60100CC81C3 /* soy-sauce.png in Resources */,
-				688134FE1B98A60900CC81C3 /* gasoline.mp3 in Resources */,
 				688136621B98A60900CC81C3 /* wok.mp3 in Resources */,
 				6881350E1B98A60900CC81C3 /* hair spray.mp3 in Resources */,
 				688134AC1B98A60900CC81C3 /* curtains.mp3 in Resources */,
@@ -3828,7 +3833,6 @@
 				688130281B98A60100CC81C3 /* crayon.png in Resources */,
 				688130FE1B98A60100CC81C3 /* oven.png in Resources */,
 				688130A81B98A60100CC81C3 /* house.png in Resources */,
-				6881355B1B98A60900CC81C3 /* microwave.mp3 in Resources */,
 				688131491B98A60100CC81C3 /* ruler.png in Resources */,
 				688131A91B98A60100CC81C3 /* tire.png in Resources */,
 				6881359B1B98A60900CC81C3 /* ping pong table.mp3 in Resources */,
@@ -3963,6 +3967,7 @@
 				688134E01B98A60900CC81C3 /* fax machine.mp3 in Resources */,
 				688135981B98A60900CC81C3 /* picture.mp3 in Resources */,
 				688135751B98A60900CC81C3 /* notebook.mp3 in Resources */,
+				686E38A61BA22D430085641B /* clothespin.mp3 in Resources */,
 				688135341B98A60900CC81C3 /* keyboard.mp3 in Resources */,
 				688130551B98A60100CC81C3 /* exercise-ball.png in Resources */,
 				6881351F1B98A60900CC81C3 /* highlighter.mp3 in Resources */,
@@ -4386,6 +4391,7 @@
 				6881315C1B98A60100CC81C3 /* shelf.png in Resources */,
 				688135871B98A60900CC81C3 /* pantyhose.mp3 in Resources */,
 				688134FC1B98A60900CC81C3 /* garden.mp3 in Resources */,
+				682EE7711BA72029006D8C31 /* treadmill.mp3 in Resources */,
 				68812FFA1B98A60100CC81C3 /* car-key.png in Resources */,
 				688130D81B98A60100CC81C3 /* mattress.png in Resources */,
 				6881352E1B98A60900CC81C3 /* jeans (men's).mp3 in Resources */,
@@ -4412,6 +4418,7 @@
 				688135AE1B98A60900CC81C3 /* protein powder.mp3 in Resources */,
 				688131A41B98A60100CC81C3 /* television.png in Resources */,
 				688135711B98A60900CC81C3 /* net (basketball).mp3 in Resources */,
+				682EE7701BA72029006D8C31 /* microwave.mp3 in Resources */,
 				688134A61B98A60900CC81C3 /* countertop.mp3 in Resources */,
 				688131D11B98A60100CC81C3 /* wallet.png in Resources */,
 				688135E41B98A60900CC81C3 /* shower.mp3 in Resources */,
@@ -4496,6 +4503,7 @@
 				6881315A1B98A60100CC81C3 /* shaving-cream.png in Resources */,
 				688136331B98A60900CC81C3 /* towel.mp3 in Resources */,
 				688131031B98A60100CC81C3 /* pan.png in Resources */,
+				686E38A41BA22D270085641B /* clothespin.png in Resources */,
 				6881317C1B98A60100CC81C3 /* speedometer.png in Resources */,
 				6881351E1B98A60900CC81C3 /* high heels.mp3 in Resources */,
 				688131561B98A60100CC81C3 /* seat-belt.png in Resources */,
@@ -4563,6 +4571,7 @@
 				6881361C1B98A60900CC81C3 /* tablet computer.mp3 in Resources */,
 				688131411B98A60100CC81C3 /* ride-cymbal.png in Resources */,
 				688131281B98A60100CC81C3 /* postcard.png in Resources */,
+				686E38A81BA22D740085641B /* snowboard.mp3 in Resources */,
 				688130601B98A60100CC81C3 /* fax-machine.png in Resources */,
 				688130B81B98A60100CC81C3 /* knife.png in Resources */,
 				688134321B98A60900CC81C3 /* air pump.mp3 in Resources */,
@@ -4597,7 +4606,6 @@
 				688131D91B98A60100CC81C3 /* weight-lifting-bench.png in Resources */,
 				688135EC1B98A60900CC81C3 /* sled.mp3 in Resources */,
 				68812FBB1B98A60000CC81C3 /* bag.png in Resources */,
-				688136381B98A60900CC81C3 /* treadmill.mp3 in Resources */,
 				688131AF1B98A60100CC81C3 /* tool.png in Resources */,
 				688130591B98A60100CC81C3 /* eyelash-curler.png in Resources */,
 				6881358E1B98A60900CC81C3 /* pawn.mp3 in Resources */,
@@ -4606,7 +4614,6 @@
 				688130491B98A60100CC81C3 /* ear-plugs.png in Resources */,
 				688134571B98A60900CC81C3 /* bishop.mp3 in Resources */,
 				68812FE21B98A60100CC81C3 /* bookcase.png in Resources */,
-				688135F11B98A60900CC81C3 /* snowbaord.mp3 in Resources */,
 				68812FDE1B98A60100CC81C3 /* blush.png in Resources */,
 				6881314D1B98A60100CC81C3 /* saxophone.png in Resources */,
 				688136601B98A60900CC81C3 /* windshield wiper.mp3 in Resources */,
@@ -4843,6 +4850,7 @@
 				688135BF1B98A60900CC81C3 /* remote control.mp3 in Resources */,
 				688135E21B98A60900CC81C3 /* shower cap.mp3 in Resources */,
 				6879B27E1B8CEAD60045142F /* Images.xcassets in Resources */,
+				682EE76F1BA72029006D8C31 /* gasoline.mp3 in Resources */,
 				688131651B98A60100CC81C3 /* sink-(bathroom).png in Resources */,
 				688135971B98A60900CC81C3 /* picture frame.mp3 in Resources */,
 				688131851B98A60100CC81C3 /* stove.png in Resources */,
