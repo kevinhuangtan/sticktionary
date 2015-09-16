@@ -101,7 +101,10 @@
     
             self.imgKey = [self.imgKey stringByReplacingOccurrencesOfString:@" "
                                                  withString:@"-"];
+
             self.imgKey = [self.imgKey stringByReplacingOccurrencesOfString:@"/"
+                                                                  withString:@"#"];
+            self.wordKey = [self.wordKey stringByReplacingOccurrencesOfString:@"/"
                                                                    withString:@"#"];
             NSLog(@"%@", self.imgKey);
             NSLog(@"%@", self.wordKey);
