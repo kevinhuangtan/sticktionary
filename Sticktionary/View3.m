@@ -50,6 +50,9 @@
     [self.view addSubview:self.scrollView];
     
 }
+- (IBAction)lookup:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
   
